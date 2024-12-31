@@ -1,0 +1,54 @@
+-------------------MODEL 1----------------------------------------
+RF for Model 1
+Best parameters: {'max_depth': 17.0, 'min_samples_leaf': 2.0, 'min_samples_split': 6.0, 'n_estimators': 283.0}
+Best score: 0.9493088417229428 (F2)
+class_weight = 'balanced' 
+
+XGB for Model 1
+Best parameters: {'learning_rate': 0.2704716843384405, 'max_bin': 941.0, 'max_depth': 13.0, 'n_estimators': 180.0, 'num_features': 53.0, 'scale_pos_weight': 229.0}
+Best score: 0.9576071406248694 (F2)
+Worst score: 0.5091894412289257 (F2)
+objective='binary:logistic', 
+eval_metric='logloss'
+
+
+-------------------MODEL 1.5----------------------------------------
+RF for Model 1.5
+Best parameters: {'max_depth': 22.0, 'min_samples_leaf': 1.0, 'min_samples_split': 3.0, 'n_estimators': 135.0}
+Best score: 0.9474706317262219 (F1)
+Worst score: 0.944170898834894
+class_weight = None
+
+XGB for Model 1.5
+Best parameters: {'learning_rate': 0.07988403788746432, 'max_bin': 806.0, 'max_depth': 14.0, 'n_estimators': 279.0, 'num_features': 49.0, 'scale_pos_weight': 1.0}
+Best score: 0.9566006373307051
+Worst score: 0.7579344397609711
+objective='binary:logistic', 
+eval_metric='logloss'
+
+-------------------MODEL 2----------------------------------------
+RF for Model 2
+Best parameters: {'max_depth': 18.0, 'min_samples_leaf': 1.0, 'min_samples_split': 3.0, 'n_estimators': 124.0}
+Best score: 0.9231547178152548
+class_weight = None
+
+XGB for Model 2
+Best parameters: {'learning_rate': 0.17445685912723602, 'max_bin': 704.0, 'max_depth': 11.0, 'n_estimators': 150.0, 'num_features': 55.0}
+Best score: 0.942187700467699
+Worst score: 0.8230970477330917
+objective='multi:softmax', num_class=7,
+eval_metric='mlogloss'
+
+-------------------MODEL 3----------------------------------------
+RF for Model 3
+Best parameters: {'max_depth': 21.0, 'min_samples_leaf': 2.0, 'min_samples_split': 3.0, 'n_estimators': 155.0}
+Best score: 0.7758999566503127
+Worst score: 0.7663456778898934
+class_weight = None
+
+XGB for Model 3
+Best parameters: {'learning_rate': 0.4466153642201052, 'max_bin': 1833.0, 'max_depth': 23.0, 'n_estimators': 128.0, 'num_features': 59.0}
+Best score: 0.805949226892157
+Worst score: 0.6780361537911185
+objective='multi:softmax', num_class=7,
+eval_metric='mlogloss'
